@@ -2,6 +2,7 @@
 const SERVER_URL = "https://expense-management-app-backend-bcjo.onrender.com/api/v1"
 
 module.exports = {
+    SERVER_URL,
     registerUrl : `${SERVER_URL}/users/register`,
     loginUrl : `${SERVER_URL}/users/login`,
 

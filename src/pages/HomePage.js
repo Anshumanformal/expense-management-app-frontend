@@ -5,10 +5,9 @@ import {UnorderedListOutlined, AreaChartOutlined} from '@ant-design/icons'
 import moment from 'moment'
 import axios from 'axios'
 // import { addTransaction, getAllTransactionsOfAUser } from "../utils/urls"
-import { addTransaction } from "../utils/urls"
+import { SERVER_URL, addTransaction } from "../utils/urls"
 import Spinner from "../components/Spinner"
 import Analytics from '../components/Analytics'
-const SERVER_URL = "http://localhost:8080/api/v1"
 const { RangePicker } = DatePicker
 
 const HomePage = () => {
